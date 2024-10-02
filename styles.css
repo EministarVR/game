@@ -9,15 +9,11 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-#menu {
+#menu, #tutorial, #pauseMenu {
     text-align: center;
 }
 
-#menu h1 {
-    margin-bottom: 20px;
-}
-
-button {
+button, select {
     padding: 10px 20px;
     margin: 10px;
     font-size: 18px;
@@ -61,7 +57,7 @@ button:hover {
     bottom: 0;
 }
 
-#obstacle {
+#enemy {
     position: absolute;
     width: 40px;
     height: 40px;
